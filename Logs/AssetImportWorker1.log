@@ -1,0 +1,1186 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 16150 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Applications\Unity\Unity\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Words/DSGN5005/Homework3/RoomMonitor
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49797
+Successfully changed project path to: D:/Words/DSGN5005/Homework3/RoomMonitor
+D:/Words/DSGN5005/Homework3/RoomMonitor
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40052] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2370069371 [EditorId] 2370069371 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8493HKFK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40052] Host "[IP] 192.168.88.1 [Port] 0 [Flags] 2 [Guid] 2370069371 [EditorId] 2370069371 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8493HKFK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path D:/Applications/Unity/Unity/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Words/DSGN5005/Homework3/RoomMonitor/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.5613
+Initialize mono
+Mono path[0] = 'D:/Applications/Unity/Unity/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Applications/Unity/Unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Applications/Unity/Unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Applications/Unity/Unity/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007367 seconds.
+- Loaded All Assemblies, in  0.551 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 1012ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.375 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.448 seconds
+Domain Reload Profiling: 2823ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (876ms)
+		LoadAssemblies (613ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (430ms)
+				TypeCache.ScanAssembly (390ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (979ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3544.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 6.601500 ms (FindLiveObjects: 0.521900 ms CreateObjectMapping: 0.465800 ms MarkObjects: 5.462900 ms  DeleteObjects: 0.149500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1021433.164201 seconds.
+  path: Assets/low_poly_interior_8
+  artifactKey: Guid(ad398833e28738d41b92102876e26aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8 using Guid(ad398833e28738d41b92102876e26aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b91a63d49b6e78f504d08be72cbd91') in 0.003745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/low_poly_interior_8/Scenes/Sample.unity
+  artifactKey: Guid(63a053da9f781564fa36dfbbaae0bdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Scenes/Sample.unity using Guid(63a053da9f781564fa36dfbbaae0bdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b953b9ed58013491248b52a09080c9c4') in 0.000490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Scenes
+  artifactKey: Guid(d3e52c08ed001d142943452d589837b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Scenes using Guid(d3e52c08ed001d142943452d589837b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de330bcb86f2037b40f9f3aa5715e6d2') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 312.349327 seconds.
+  path: Assets/low_poly_interior_8/Materials/White.mat
+  artifactKey: Guid(bac558b6bb788ac459f27924f7704590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Materials/White.mat using Guid(bac558b6bb788ac459f27924f7704590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53bc7ddb889c80c56b89bee23846244') in 0.475010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.461088 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.002.prefab
+  artifactKey: Guid(ec9f9af9ae750434c883a233eb82dc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.002.prefab using Guid(ec9f9af9ae750434c883a233eb82dc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a32b62e67f80ae9eb39e402a6b2cc51') in 0.030190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.172130 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.003.prefab
+  artifactKey: Guid(ac3654b783b2d024dbc4bc9aa18541a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.003.prefab using Guid(ac3654b783b2d024dbc4bc9aa18541a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02546f7d978bafc5a4f1f2ff3abba9ab') in 0.022581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.028.prefab
+  artifactKey: Guid(9151ecac3be2def47850eb60c28f03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.028.prefab using Guid(9151ecac3be2def47850eb60c28f03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f444876af507618f54b6a667b35e4e7') in 0.019797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.044.prefab
+  artifactKey: Guid(f16c31cbace47e9479cb4ae1ffb41a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.044.prefab using Guid(f16c31cbace47e9479cb4ae1ffb41a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3c453bee25b593f5b90639c3076243') in 0.022894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.048.prefab
+  artifactKey: Guid(bcae88d1fe106e94bb67db16700d1049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.048.prefab using Guid(bcae88d1fe106e94bb67db16700d1049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651d404aeb7ae3472cabe68c0c0ad043') in 0.018853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.045.prefab
+  artifactKey: Guid(5d28191a15bd0304ca6d2b7d0945e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.045.prefab using Guid(5d28191a15bd0304ca6d2b7d0945e12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d36ff3195a97c3f10687837f9255f38') in 0.020151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.031.prefab
+  artifactKey: Guid(31a72daf38c79de44a3f2ca8d9f6cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.031.prefab using Guid(31a72daf38c79de44a3f2ca8d9f6cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cce1a76c0840a373778df5132a0f57') in 0.018162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.008.prefab
+  artifactKey: Guid(0cafc1cdf7b8eea4f8fdfd47d3bcb6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.008.prefab using Guid(0cafc1cdf7b8eea4f8fdfd47d3bcb6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799fe1248b6874e50122d2ba85fd3184') in 0.023342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.037.prefab
+  artifactKey: Guid(04d6b89cba112ee43a8e98b4a16eed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.037.prefab using Guid(04d6b89cba112ee43a8e98b4a16eed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f8d142f1a4b7b63b5a4c38df5998e6') in 0.023135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.013.prefab
+  artifactKey: Guid(6c91f823431959941b7ccffb8176ae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.013.prefab using Guid(6c91f823431959941b7ccffb8176ae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cc85d3d53151d490f0cc4f96c38224') in 0.021452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.007.prefab
+  artifactKey: Guid(f7e0626a4b15abe4a97e3d6c34ed7ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.007.prefab using Guid(f7e0626a4b15abe4a97e3d6c34ed7ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e4de3e6924182512f792969aeaf648') in 0.022563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.014.prefab
+  artifactKey: Guid(d5db0e2833348cb4a965d5f8d1edf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.014.prefab using Guid(d5db0e2833348cb4a965d5f8d1edf9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b887e86cbe41df8a5c32e610edaad60f') in 0.020858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.033.prefab
+  artifactKey: Guid(bfd7ef33f34103849b7ae0ce1dd90c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.033.prefab using Guid(bfd7ef33f34103849b7ae0ce1dd90c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e6a4c6ecaf51e0ef3a0da52078915') in 0.020259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.053.prefab
+  artifactKey: Guid(e4bd7dae7131a064eacc8483520ecfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.053.prefab using Guid(e4bd7dae7131a064eacc8483520ecfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031f4cf0ef01fa1f594a71041561b832') in 0.019879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.018.prefab
+  artifactKey: Guid(7520bcde10b305648ad4ac3b5c5c10c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.018.prefab using Guid(7520bcde10b305648ad4ac3b5c5c10c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6219edabc1be1126147a4ce7981362') in 0.024745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.029.prefab
+  artifactKey: Guid(05e375a08f156c3429d3dcd12d304781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.029.prefab using Guid(05e375a08f156c3429d3dcd12d304781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a742e7f450a425d22964671b43a50f4') in 0.025396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.056.prefab
+  artifactKey: Guid(23cfaf6b57ed4a04882ebee641dfe0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.056.prefab using Guid(23cfaf6b57ed4a04882ebee641dfe0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7fc1d4c286ff2d2af827c170cdfdb1') in 0.022571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.040.prefab
+  artifactKey: Guid(269116c444190ab45943d0b6d79463be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.040.prefab using Guid(269116c444190ab45943d0b6d79463be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b152b4d8f7760c18fba4d8bde10d801c') in 0.023773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.030.prefab
+  artifactKey: Guid(3e5b009618d454146a3d4f269d11d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.030.prefab using Guid(3e5b009618d454146a3d4f269d11d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4f06110bb541ce40ba520aaf339d2') in 0.024054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.010.prefab
+  artifactKey: Guid(37ac9a70ce3a7a34b872664f4f86ed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.010.prefab using Guid(37ac9a70ce3a7a34b872664f4f86ed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffdc40cd2aa5e1e33d78b186110fc34') in 0.021510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.034.prefab
+  artifactKey: Guid(59839097c037ee048b426964ebacf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.034.prefab using Guid(59839097c037ee048b426964ebacf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbbe8f56f5a03766520f7daea7589d8') in 0.022854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.024.prefab
+  artifactKey: Guid(108102c11118448459f6efea9037221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.024.prefab using Guid(108102c11118448459f6efea9037221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e149489ecb7a69d2d464550ba639317') in 0.021427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.005.prefab
+  artifactKey: Guid(817a6a0d066914942ac3b9c9aba2969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.005.prefab using Guid(817a6a0d066914942ac3b9c9aba2969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfd3f380484bfc635f927bd3510fb38') in 0.030097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.051.prefab
+  artifactKey: Guid(adf390ea00c18264099b61a8de0b532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.051.prefab using Guid(adf390ea00c18264099b61a8de0b532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6190dd2e7e3d3c8487e43571feca22ae') in 0.022511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.047.prefab
+  artifactKey: Guid(a416b11f007d3bc44adb53ef701cc8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.047.prefab using Guid(a416b11f007d3bc44adb53ef701cc8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e78e4e7a7b7083c7097e38f668f286') in 0.021538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.042.prefab
+  artifactKey: Guid(8679c0279b2953644aaa3a3d9f4aa08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.042.prefab using Guid(8679c0279b2953644aaa3a3d9f4aa08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ebf53165757694008aaed1f3b14ff1') in 0.023643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.023.prefab
+  artifactKey: Guid(3a45aebf62ba9ef4e9b2cfeb0e3976cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.023.prefab using Guid(3a45aebf62ba9ef4e9b2cfeb0e3976cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac0cfd966627013a1f9bc1f3f7a8e22') in 0.030065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.049.prefab
+  artifactKey: Guid(93f80f92d78f5174a9cd3fe60ad46733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_collection/low_poly_interior.049.prefab using Guid(93f80f92d78f5174a9cd3fe60ad46733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774681dcf005fd8782cf2b7b2bac36c4') in 0.025681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.070200 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.445.prefab
+  artifactKey: Guid(1f262d92bd99a1d449df310d8d127e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.445.prefab using Guid(1f262d92bd99a1d449df310d8d127e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a60ba6f79281efd8e7a19185a6320b') in 0.019983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.469.prefab
+  artifactKey: Guid(f4ef093829b311b44bc45fc71b5a4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.469.prefab using Guid(f4ef093829b311b44bc45fc71b5a4887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e786b08f7105b2b085ca31432ac00ac2') in 0.056215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.470.prefab
+  artifactKey: Guid(63c5d14bf161c5846b7beecc0de0b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.470.prefab using Guid(63c5d14bf161c5846b7beecc0de0b73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5540f15a8e4a682d711d80cf78cc8d') in 0.035067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.473.prefab
+  artifactKey: Guid(9523990fb1d60db4097560e945ee6df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.473.prefab using Guid(9523990fb1d60db4097560e945ee6df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff7adc1dfe4554f6b90df94922a5b69') in 0.098267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.492.prefab
+  artifactKey: Guid(0a981d4d9463be944b209399c0e7a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.492.prefab using Guid(0a981d4d9463be944b209399c0e7a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2322db0aaf3eeb8cadeac78aa3f0a7') in 0.020652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.463.prefab
+  artifactKey: Guid(831072b0fb1d5bc4b93cdbe251cbca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.463.prefab using Guid(831072b0fb1d5bc4b93cdbe251cbca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebfd9fd5f7b2ab99ce5227c46fb996c') in 0.023239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.495.prefab
+  artifactKey: Guid(530f498d20adbfe4b888ff6077be6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.495.prefab using Guid(530f498d20adbfe4b888ff6077be6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4710a1838d5042c7a702f4b79d775a40') in 0.026744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.448.prefab
+  artifactKey: Guid(f4a66d89120c3b043bda5847501d9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.448.prefab using Guid(f4a66d89120c3b043bda5847501d9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7ab229f46a18809b21f710bcc3dd63') in 0.025764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.446.prefab
+  artifactKey: Guid(f15afe8a226f2814ab6e2b13b14ecbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.446.prefab using Guid(f15afe8a226f2814ab6e2b13b14ecbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c7ef98d84cdb6898f508cc9a110ff') in 0.023829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.482.prefab
+  artifactKey: Guid(510355a28c26df444aac00084020d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.482.prefab using Guid(510355a28c26df444aac00084020d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3da1104675732e52b2fc846df6b51fe') in 0.021240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.494.prefab
+  artifactKey: Guid(b280a64ae04f85942a8c87858c34950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.494.prefab using Guid(b280a64ae04f85942a8c87858c34950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a655ab7260c51de2cca48e1992667e2') in 0.023202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.490.prefab
+  artifactKey: Guid(cbdf925b4daeacd498f0417b0c40595c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.490.prefab using Guid(cbdf925b4daeacd498f0417b0c40595c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c86dc633c274cb1de19a4c87949f1ec') in 0.024911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.487.prefab
+  artifactKey: Guid(a97b379f9bab21d478a3a556c8f37562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.487.prefab using Guid(a97b379f9bab21d478a3a556c8f37562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc490d4ec57ff86a297d12771f487d77') in 0.026325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.474.prefab
+  artifactKey: Guid(205a20dd99c89e242868c9ff19130d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.474.prefab using Guid(205a20dd99c89e242868c9ff19130d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a309c91208ed4b9cd928fb8d989ac516') in 0.034148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.497.prefab
+  artifactKey: Guid(df2c8f0b14dce3d4ca6937f4ee056610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.497.prefab using Guid(df2c8f0b14dce3d4ca6937f4ee056610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8b4625c153a073262ee8cc62962418') in 0.028300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.499.prefab
+  artifactKey: Guid(a35776e63ebfc6544b6f6948342835a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.499.prefab using Guid(a35776e63ebfc6544b6f6948342835a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97234126fdfb238ec211ae603a9d1104') in 0.040736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.465.prefab
+  artifactKey: Guid(be632ed39991e944a99bd964c3f506ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.465.prefab using Guid(be632ed39991e944a99bd964c3f506ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000876b870107c06893828ca6358408c') in 0.027312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.481.prefab
+  artifactKey: Guid(c329ed51debbd6e439876b17d43c3a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.481.prefab using Guid(c329ed51debbd6e439876b17d43c3a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec053f5243304854b4b6e0107dc0e81') in 0.022606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.449.prefab
+  artifactKey: Guid(59bb7fd98dc2197409015cb19c46f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.449.prefab using Guid(59bb7fd98dc2197409015cb19c46f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e58a3942c41023e4a43154a5f4d5c9') in 0.020855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.459.prefab
+  artifactKey: Guid(44d8ad1d4fa9b854385c15913740f18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.459.prefab using Guid(44d8ad1d4fa9b854385c15913740f18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428a05f8c07e6d33e344a45accf5c14e') in 0.022649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.476.prefab
+  artifactKey: Guid(9a979667d32c2c042a6caa42a9bdcff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.476.prefab using Guid(9a979667d32c2c042a6caa42a9bdcff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4095dd12395521acb32fb7ed05fab631') in 0.022431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.488.prefab
+  artifactKey: Guid(35b23a6d31b2e7f44963f799e4732978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.488.prefab using Guid(35b23a6d31b2e7f44963f799e4732978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a5772666a5e408a65714a26a39dbcf') in 0.023476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.475.prefab
+  artifactKey: Guid(95583e75fdb55974eaa4b0acec70ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.475.prefab using Guid(95583e75fdb55974eaa4b0acec70ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a028c73048c5f0fd8900a64dd48b28b') in 0.025510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.661473 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.503.prefab
+  artifactKey: Guid(89a616d16f96038489e9bbc8c8f1e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.503.prefab using Guid(89a616d16f96038489e9bbc8c8f1e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bbd16a3baefa91ca80c9412712dfdc') in 0.020124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.512.prefab
+  artifactKey: Guid(d8719d4c8bf273642a0d445cf2f2d2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.512.prefab using Guid(d8719d4c8bf273642a0d445cf2f2d2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d01d4c5f4b38c11a2c37d8494c0e26c') in 0.027185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.513.prefab
+  artifactKey: Guid(29973be6b60f2494db2a1278611a529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.513.prefab using Guid(29973be6b60f2494db2a1278611a529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e864843816b7df333bcbb55e523c87') in 0.024752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.516.prefab
+  artifactKey: Guid(be119fc576ce51241826b586a492ce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.516.prefab using Guid(be119fc576ce51241826b586a492ce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c623260b84fcec2efe152e8539a508ff') in 0.047057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.534.prefab
+  artifactKey: Guid(4455087bab17cf244b6d3b7c84b1072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.534.prefab using Guid(4455087bab17cf244b6d3b7c84b1072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afa6b95e1c881adcc69eeb19480194a') in 0.077684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.540.prefab
+  artifactKey: Guid(02242fec996917042b6df300a1cb655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.540.prefab using Guid(02242fec996917042b6df300a1cb655d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad7f86439756f4ac4a02c2dc3572f7f') in 0.024277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.524.prefab
+  artifactKey: Guid(4ee2c2195904b1f4a8f81aab401d4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.524.prefab using Guid(4ee2c2195904b1f4a8f81aab401d4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a960d7f3a28a396ca2ee4b2c803d5c1a') in 0.027772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.533.prefab
+  artifactKey: Guid(8715cec7d5dbfc44ea1c4dbea4821f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.533.prefab using Guid(8715cec7d5dbfc44ea1c4dbea4821f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0728bbd1761d3b4c324ea4a960469ad1') in 0.020509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.529.prefab
+  artifactKey: Guid(4dd0bc8e5ac586d4fb58ba843c126159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.529.prefab using Guid(4dd0bc8e5ac586d4fb58ba843c126159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b430806fa2dab038a0e14f8848a1ddf') in 0.030097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.521.prefab
+  artifactKey: Guid(410ce465a20210941ae77400d95d633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.521.prefab using Guid(410ce465a20210941ae77400d95d633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01265163557ef8c69bd50b833660cb6c') in 0.024084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.541.prefab
+  artifactKey: Guid(6ceb60fd3a1f6034ebe88eee2a78f77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.541.prefab using Guid(6ceb60fd3a1f6034ebe88eee2a78f77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131887e2790eaa514b7117ae80824635') in 0.023443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.554.prefab
+  artifactKey: Guid(fd34d1fd14efe8940a5f8f19f4e74c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.554.prefab using Guid(fd34d1fd14efe8940a5f8f19f4e74c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983a542999f98f64b79755fbf52af751') in 0.022846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.557.prefab
+  artifactKey: Guid(f9c23e1cd64b57540bf08216af3b274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.557.prefab using Guid(f9c23e1cd64b57540bf08216af3b274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fcbcf32191049be6237b5548a754ca') in 0.023275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.582.prefab
+  artifactKey: Guid(c6946fa26c600704296b67216ad3d14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.582.prefab using Guid(c6946fa26c600704296b67216ad3d14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8511c0f5bfdffad19b035b87f0ce73') in 0.024327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.579.prefab
+  artifactKey: Guid(278e58d0f0e5c9840b6ecbea39cfb831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.579.prefab using Guid(278e58d0f0e5c9840b6ecbea39cfb831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5a55050bd234af406921ee42d2faec') in 0.022267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.581.prefab
+  artifactKey: Guid(2bfff5af5bb325641acee5b6906b1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.581.prefab using Guid(2bfff5af5bb325641acee5b6906b1300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1d50429530c9c6961fdcb051aeb3c1') in 0.019348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.570.prefab
+  artifactKey: Guid(7d69bed3c21984e47b3625bc913a548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.570.prefab using Guid(7d69bed3c21984e47b3625bc913a548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5ddedf1295c5c43e0c2638c5eb9a18') in 0.026026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.567.prefab
+  artifactKey: Guid(c20b0229e6bf3374cae872a219d9d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.567.prefab using Guid(c20b0229e6bf3374cae872a219d9d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f53e727ee9eb984c4f29ed65bd9d949') in 0.024108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.564.prefab
+  artifactKey: Guid(bb3ae40905cdc1d49a6d5f59e3ccfbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.564.prefab using Guid(bb3ae40905cdc1d49a6d5f59e3ccfbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b3e6b5fe41a08013e55d2d7f9ba8a2') in 0.021171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.553.prefab
+  artifactKey: Guid(b83444826932a46459cb39cd140428b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.553.prefab using Guid(b83444826932a46459cb39cd140428b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319ef92ba4acf44ecd61c857aef5978d') in 0.023630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.568.prefab
+  artifactKey: Guid(1397a41ed3d40c34b933aea78b4593ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.568.prefab using Guid(1397a41ed3d40c34b933aea78b4593ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51cbb6546f89901adda4b5a68ee18c1') in 0.025763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.552.prefab
+  artifactKey: Guid(79395a98436275c499ce07b1f6760f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.552.prefab using Guid(79395a98436275c499ce07b1f6760f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0bf3cda933f74512048768020f27fd') in 0.023174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.530.prefab
+  artifactKey: Guid(a564f3968bc57394e9920016fc16d4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.530.prefab using Guid(a564f3968bc57394e9920016fc16d4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875b0e4b630f5450ecfecc7c3a345095') in 0.027873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.525.prefab
+  artifactKey: Guid(71d21b8bb101a054cb654947430f551e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.525.prefab using Guid(71d21b8bb101a054cb654947430f551e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b40387194e66747878aced487a07386') in 0.023634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.542.prefab
+  artifactKey: Guid(956f446f5872f724097954b439cf4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.542.prefab using Guid(956f446f5872f724097954b439cf4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc2660ce7d4139bf0d2a23b3fe25efd') in 0.022401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.588.prefab
+  artifactKey: Guid(58f2657987d040d498fd55b6a0771edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.588.prefab using Guid(58f2657987d040d498fd55b6a0771edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3504ff72ebb4789c09334c3de2cf6133') in 0.020308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.605.prefab
+  artifactKey: Guid(16a5182dca1d660488f0158e118bbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.605.prefab using Guid(16a5182dca1d660488f0158e118bbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c0ef549017ac6dc0fff8d0305d0f52') in 0.021397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.602.prefab
+  artifactKey: Guid(b87a5442493d74c48bbb550e4d6f2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.602.prefab using Guid(b87a5442493d74c48bbb550e4d6f2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac853d12d94f57578e6db24bf0dc768d') in 0.020586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.608.prefab
+  artifactKey: Guid(97983b6cce3fe0d41866555e2548f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.608.prefab using Guid(97983b6cce3fe0d41866555e2548f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4915560ba8dd8db207f075794973a6cc') in 0.023487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.598.prefab
+  artifactKey: Guid(ebfc8a9db9ee4a24d952e93a9b0874e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.598.prefab using Guid(ebfc8a9db9ee4a24d952e93a9b0874e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06428c275e13bc7f3681cc616c552171') in 0.024265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.610.prefab
+  artifactKey: Guid(cf52d3547033686488a86b10a59d8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.610.prefab using Guid(cf52d3547033686488a86b10a59d8cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a3b3ed86daae253af591fd5b5597b9') in 0.023518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.592.prefab
+  artifactKey: Guid(325491caa55a28041a1ad9855e1824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.592.prefab using Guid(325491caa55a28041a1ad9855e1824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df02e21e6fdcb93ae99992fb22bfc9') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.595.prefab
+  artifactKey: Guid(ccbddec5f3c34bb4280f17a61ac512ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.595.prefab using Guid(ccbddec5f3c34bb4280f17a61ac512ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b3a7291b3878d874d36108e2d0935f') in 0.024052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.624.prefab
+  artifactKey: Guid(9d394a06cc1897d4a88a7bc9134a8fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.624.prefab using Guid(9d394a06cc1897d4a88a7bc9134a8fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a36b47c11bcb007c98d4be7053afb0e') in 0.024785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.590.prefab
+  artifactKey: Guid(4e2487731baefa240a9c78db7777a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.590.prefab using Guid(4e2487731baefa240a9c78db7777a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001102f4155b9fd0e10e9aef9121065f') in 0.020173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.596.prefab
+  artifactKey: Guid(445fb90e9d389e34581812f55ea98c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.596.prefab using Guid(445fb90e9d389e34581812f55ea98c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99417c10f88d262211cc49d6e4a4c6f3') in 0.023390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.617.prefab
+  artifactKey: Guid(72c3a883b9222364cbb1834cb57bd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.617.prefab using Guid(72c3a883b9222364cbb1834cb57bd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cbd0dd33945b23010a4e332e2521aa') in 0.023763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.594.prefab
+  artifactKey: Guid(6c3e24395221a6e4d81224eae339b67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.594.prefab using Guid(6c3e24395221a6e4d81224eae339b67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0998b44b730d15203aa2409d804c0584') in 0.023594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.505.prefab
+  artifactKey: Guid(02672e25660323343b3fa53c44c99ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.505.prefab using Guid(02672e25660323343b3fa53c44c99ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d27e998a7bcc4f549a4cf99c983a5d') in 0.022378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.603.prefab
+  artifactKey: Guid(d765031d4fe3e024784bdd70475d5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.603.prefab using Guid(d765031d4fe3e024784bdd70475d5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa021f9a0f964c585c08f66ee294a8') in 0.041223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.565.prefab
+  artifactKey: Guid(a111b0c2447c2a04aa5307d4eef57769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.565.prefab using Guid(a111b0c2447c2a04aa5307d4eef57769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5523ab03d5872c4e2f21b9a1adc166a0') in 0.026215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.591.prefab
+  artifactKey: Guid(96dd3083e2974ae4aaf410ce46530e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.591.prefab using Guid(96dd3083e2974ae4aaf410ce46530e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363bd76f144523a103dc5837e73c375c') in 0.021003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.883929 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.629.prefab
+  artifactKey: Guid(80260686c07fe6b41b83cc98e2520715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.629.prefab using Guid(80260686c07fe6b41b83cc98e2520715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee94bae5c3e0b9958dd5dc26688c4fb') in 0.023484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.639.prefab
+  artifactKey: Guid(ceb7441b1faf6be49946ce6863c80d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.639.prefab using Guid(ceb7441b1faf6be49946ce6863c80d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f842acaa36065baf3761d885e13e425') in 0.033560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.637.prefab
+  artifactKey: Guid(b2582af28fad27d4998591249b3fad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.637.prefab using Guid(b2582af28fad27d4998591249b3fad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33583ef20409a902e9ebc6f9e9b5e510') in 0.024290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.645.prefab
+  artifactKey: Guid(22773006238cc0a4f90530249e5a031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.645.prefab using Guid(22773006238cc0a4f90530249e5a031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f011c570ea284f1fb0307eb0f986f69') in 0.019799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.644.prefab
+  artifactKey: Guid(dbe803d499c28dc4ea97e6df2f22c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.644.prefab using Guid(dbe803d499c28dc4ea97e6df2f22c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc4090f1936898feff52debd558b50f') in 0.019015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.659.prefab
+  artifactKey: Guid(1762296be7975194c8447c52be0c81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.659.prefab using Guid(1762296be7975194c8447c52be0c81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d2c2e82b23cff9514fa9e8eb2b7ba2') in 0.026258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.651.prefab
+  artifactKey: Guid(081931fb6310df240b3de5ae768dc0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.651.prefab using Guid(081931fb6310df240b3de5ae768dc0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cbac5efad9c93126a3d7cf018a6132') in 0.022300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.667.prefab
+  artifactKey: Guid(0cc3b3a147679474e8b282eee8e22260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.667.prefab using Guid(0cc3b3a147679474e8b282eee8e22260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc010b7381143ca444b567c369e4c4d') in 0.021019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.655.prefab
+  artifactKey: Guid(bea77212ac410494c9cb36ce0657a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.655.prefab using Guid(bea77212ac410494c9cb36ce0657a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe15e55da5fea93b711778135f7f8c9f') in 0.021047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.650.prefab
+  artifactKey: Guid(489e1ae48fcdc8b4881526bea025315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.650.prefab using Guid(489e1ae48fcdc8b4881526bea025315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3b4a3c29f490431bbd325e0df80662') in 0.022828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.630.prefab
+  artifactKey: Guid(4d0bdcf74b1b5154e93b512a68795ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.630.prefab using Guid(4d0bdcf74b1b5154e93b512a68795ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ca8717f5034da18a9a1055123a93e9') in 0.021103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.632.prefab
+  artifactKey: Guid(a792e91967084a34cb4375c5a26e37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.632.prefab using Guid(a792e91967084a34cb4375c5a26e37bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ac53f65480d586c0b0dec1e2aca287') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.647.prefab
+  artifactKey: Guid(ffc5e5ec9fdd0054c946155b42d86da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.647.prefab using Guid(ffc5e5ec9fdd0054c946155b42d86da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1409ba8ea5c282d1ae4d352ea0c01b3c') in 0.023307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.653.prefab
+  artifactKey: Guid(629a7ec150650c940b7fbd9d160f50a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.653.prefab using Guid(629a7ec150650c940b7fbd9d160f50a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f59569d3d0d9c960cdf5f8bd06c64') in 0.019590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.501445 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.671.prefab
+  artifactKey: Guid(a6feb3adea24001458c86e0309fabb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.671.prefab using Guid(a6feb3adea24001458c86e0309fabb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb8de3ea565dc30490118231a17814e') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.686.prefab
+  artifactKey: Guid(9ab9ac30dffc76c4fa010b96087398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.686.prefab using Guid(9ab9ac30dffc76c4fa010b96087398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f29491765a5a158551076ebbe9f73c2') in 0.017884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.691.prefab
+  artifactKey: Guid(75ba5a760394b97439d4bd4715f41e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.691.prefab using Guid(75ba5a760394b97439d4bd4715f41e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8097dd9ae05f4a8145c51c33a22b20db') in 0.018611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.679.prefab
+  artifactKey: Guid(45b211add9371bd4e9e9e7a3f0fd8c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.679.prefab using Guid(45b211add9371bd4e9e9e7a3f0fd8c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3871340b3dba5d771a1acdd4038466f9') in 0.018782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.681.prefab
+  artifactKey: Guid(353386659d824504680b37d933a6536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.681.prefab using Guid(353386659d824504680b37d933a6536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f67ffb6b5fc58ad9e4391fd2847fdb') in 0.018421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.705.prefab
+  artifactKey: Guid(7236aee98fd535f40a7a4ab5da5366cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.705.prefab using Guid(7236aee98fd535f40a7a4ab5da5366cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fe9cfa72a7028871cd6c30aca29486') in 0.021215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.708.prefab
+  artifactKey: Guid(24a1b1dcf4a49a5429eecaa0ae6d23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.708.prefab using Guid(24a1b1dcf4a49a5429eecaa0ae6d23d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62df640e34dd04e615e84df7c27de54') in 0.020003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.709.prefab
+  artifactKey: Guid(2869929bc9dab96419ebc5f8d4880b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.709.prefab using Guid(2869929bc9dab96419ebc5f8d4880b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b2bfeb0ee6d6ad2254c700859a6db6') in 0.020895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.688.prefab
+  artifactKey: Guid(a3d9b17bc17c761459e43878b1589e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.688.prefab using Guid(a3d9b17bc17c761459e43878b1589e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b031e9533978bce06cdf9672a91f292') in 0.018191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.695.prefab
+  artifactKey: Guid(9c3ebdeb7015b194f9f404f7c9408a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.695.prefab using Guid(9c3ebdeb7015b194f9f404f7c9408a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5d1b58f132a384a2888b198565466') in 0.019854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.678.prefab
+  artifactKey: Guid(928c2e25cb9e6c34d9cfcb75dbadd076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.678.prefab using Guid(928c2e25cb9e6c34d9cfcb75dbadd076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357cd82b5e53e26a856db3774b93d571') in 0.022314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.707.prefab
+  artifactKey: Guid(2f6a6e83f0685174da1ee736db347f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.707.prefab using Guid(2f6a6e83f0685174da1ee736db347f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d0364791da14ed29321d740096359f') in 0.018535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.680.prefab
+  artifactKey: Guid(dbcb46053246a064b8997105a201f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.680.prefab using Guid(dbcb46053246a064b8997105a201f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91e21ca2f2832284ec85cc8bf7dec03') in 0.020947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.693.prefab
+  artifactKey: Guid(5075664f99dfa564fbb45405d948d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/low_poly_interior_8/Prefabs/low_poly_interior_8_room/low_poly_interior.693.prefab using Guid(5075664f99dfa564fbb45405d948d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b874f5fc714916d48f574785552599e6') in 0.022012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
