@@ -29,6 +29,15 @@ public class ArcCameraMovement : MonoBehaviour
 
     void Update()
     {
+        // 检测ESC键退出游戏
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false; // 在编辑器中停止播放
+#else
+        Application.Quit(); // 在打包后的游戏中退出
+#endif
+        }
         // 检测按键切换暂停状态
         if (Input.GetKeyDown(KeyCode.P))
         {

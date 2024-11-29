@@ -6,11 +6,13 @@ public class ObjectSwitcher : MonoBehaviour
     public GameObject object1; // 对象1
     public GameObject object2; // 对象2
     public GameObject object3; // 对象3
+    public GameObject object4; // 对象4
 
     [Header("Skybox Colors")]
     public Color color1 = Color.red;    // 对应对象1的天空盒颜色
     public Color color2 = Color.green;  // 对应对象2的天空盒颜色
     public Color color3 = Color.blue;   // 对应对象3的天空盒颜色
+    public Color color4 = Color.yellow; // 对应对象4的天空盒颜色
 
     private Camera mainCamera; // 主相机
 
@@ -30,7 +32,7 @@ public class ObjectSwitcher : MonoBehaviour
 
     void Update()
     {
-        // 检测按键1、2、3
+        // 检测按键1、2、3、4
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SetActiveObject(1);
@@ -43,6 +45,10 @@ public class ObjectSwitcher : MonoBehaviour
         {
             SetActiveObject(3);
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SetActiveObject(4);
+        }
     }
 
     private void SetActiveObject(int index)
@@ -51,6 +57,7 @@ public class ObjectSwitcher : MonoBehaviour
         if (object1 != null) object1.SetActive(index == 1);
         if (object2 != null) object2.SetActive(index == 2);
         if (object3 != null) object3.SetActive(index == 3);
+        if (object4 != null) object4.SetActive(index == 4); 
 
         // 更改相机天空盒颜色
         UpdateSkyboxColor(index);
@@ -70,6 +77,9 @@ public class ObjectSwitcher : MonoBehaviour
                 break;
             case 3:
                 mainCamera.backgroundColor = color3;
+                break;
+            case 4:
+                mainCamera.backgroundColor = color4;
                 break;
         }
     }
